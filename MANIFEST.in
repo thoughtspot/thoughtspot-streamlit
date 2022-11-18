@@ -1,1 +1,1 @@
-recursive-include streamlit_thoughtspot/frontend/build *
+recursive-include thoughtspot-streamlit/frontend/build *
