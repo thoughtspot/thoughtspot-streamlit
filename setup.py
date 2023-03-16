@@ -1,8 +1,8 @@
 import setuptools
 
 setuptools.setup(
-    name="thoughtspot-streamlit-component",
-    version="0.0.1",
+    name="streamlit_thoughtspot",
+    version="0.0.2",
     author="",
     author_email="",
     description="",
