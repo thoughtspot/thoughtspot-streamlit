@@ -17,6 +17,8 @@ You can then import the streamlit_thoughtspot package into your streamlit projec
 ### Rendering a Livebaord
 To render a Liveboard Embed, call the `thoughtspot_liveboard_component` function.
 
+| Parameter | Data Type | Description |
+| ------------- | ------------- | ------------- |
 | host | string | URL of your ThoughtSpot environment. |
 | width | number | width |
 | height | number | height |
@@ -37,6 +39,8 @@ streamlit_thoughtspot.thoughtspot_liveboard_component(
 
 To render a Search Embed, call the `thoughtspot_liveboard_component` function.
 
+| Parameter | Data Type | Description |
+| ------------- | ------------- | ------------- |
 | host | string | URL of your ThoughtSpot environment. |
 | width | number | width |
 | height | number | height |
