@@ -17,14 +17,6 @@ You can then import the streamlit_thoughtspot package into your streamlit projec
 ### Rendering a Livebaord
 To render a Liveboard Embed, call the `thoughtspot_liveboard_component` function.
 
-| Parameter | Data Type | Description |
-| ------------- | ------------- | ------------- |
-| host | string | URL of your ThoughtSpot environment. |
-| width | number | width |
-| height | number | height |
-| liveboardid | string | UUID of the ThoughtSpot liveboard to be rendered |
-
-
 ```
 streamlit_thoughtspot.thoughtspot_liveboard_component(
     host=thoughtspot_host,
@@ -34,10 +26,29 @@ streamlit_thoughtspot.thoughtspot_liveboard_component(
     )
 ```
 
+| Parameter | Data Type | Description |
+| ------------- | ------------- | ------------- |
+| host | string | URL of your ThoughtSpot environment. |
+| width | number | width |
+| height | number | height |
+| liveboardid | string | UUID of the ThoughtSpot liveboard to be rendered |
+
+
+
+
 
 ### Rendering a Search Component
 
-To render a Search Embed, call the `thoughtspot_liveboard_component` function.
+To render a Search Embed, call the `thoughtspot_search_component` function.
+
+```
+streamlit_thoughtspot.thoughtspot_search_component(
+    host=thoughtspot_host,
+    width=1400,
+    height=900,
+    answerid='My answer UUID'
+    )
+```
 
 | Parameter | Data Type | Description |
 | ------------- | ------------- | ------------- |
@@ -48,14 +59,7 @@ To render a Search Embed, call the `thoughtspot_liveboard_component` function.
 | dataSources | array of strings | UUIDs of the ThoughtSpot datasources that will be visible |
 | searchString | string | If no answer Id is provided, this search token string will be the default search executed.|
 
-```
-streamlit_thoughtspot.thoughtspot_search_component(
-    host=thoughtspot_host,
-    width=1400,
-    height=900,
-    answerid='My answer UUID'
-    )
-```
+
 
 
 
