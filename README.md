@@ -7,10 +7,15 @@ A Streamlit component that renders a ThoughtSpot liveboard, or search, leveragin
 
 You can use pip to install the pre-built wheel file.
 
-``` pip install dist/streamlit_thoughtspot-0.0.1-py3-none-any.whl ```
+``` 
+pip install dist/streamlit_thoughtspot-0.0.1-py3-none-any.whl
+```
 
 You can then import the streamlit_thoughtspot package into your streamlit project.
-``` import streamlit_thoughtspot ```
+
+```
+import streamlit_thoughtspot
+```
 
 **Note** that this does not implement authentication. If you want to implement a more complex logic, we suggest building the package yourself.
 
